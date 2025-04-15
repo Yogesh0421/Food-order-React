@@ -1,0 +1,145 @@
+
+nav{
+    padding: 10px 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #5e6069;
+}
+
+nav .logo{
+    width: 50px;
+}
+
+nav .navbar-menu{
+    color: #49557e;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 1.1rem;
+}
+
+nav .navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-right img{
+    width: 30px;
+}
+
+nav button{
+    background: transparent;
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: #49557e;
+    border: 1px solid tomato;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #c5c5c5;
+}
+
+nav button:hover{
+    background-color: #fff7fe;
+}
+
+nav li:hover{
+    cursor: pointer;
+}
+
+.active{
+    padding-bottom: 2px;
+    color: #49557ed5;
+    border-bottom: 2px solid #49557e;
+}
+
+.navbar-searchicon{
+    position: relative;
+}
+
+.navbar-searchicon .dot{
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 5px;
+    background-color: tomato;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+
+@media screen and (max-width:1050px) {
+    nav .logo{
+        width: 140px;
+    }
+
+    .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+
+    .navbar-right{
+        gap: 30px;
+    }
+
+    .navbar-right img{
+        width: 22px;
+    }
+
+    .navbar-right button{
+        padding: 8px 25px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    nav .logo{
+        width: 80px;
+    }
+
+    .navbar-menu{
+        gap: 15px;
+        font-size: 1rem;
+    }
+
+    .navbar-right{
+        gap: 10px;
+    }
+
+    .navbar-right img{
+        width: 20px;
+    }
+
+    .navbar-right button{
+        padding: 7px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:750px) {
+    nav .navbar-menu{
+        display: none;
+    }
+}
+
+@media (max-width:450px) {
+
+    nav .logo{
+        width: 50px;
+    }
+
+    nav .navbar-right{
+        gap: 15px;
+    }
+
+    nav .navbar-right img{
+        width: 20px;
+    }
+
+    nav .navbar-menu{
+        display: none;
+    }
+}
+
+
+

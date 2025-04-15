@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Caesar Salad",
+        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+        "price": 5.99,
+        "description": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan.",
+        "category": "Salad"
+    },
+    {
+        "id": 2,
+        "name": "Greek Salad",
+        "image": "https://images.pexels.com/photos/1089930/pexels-photo-1089930.jpeg",
+        "price": 6.49,
+        "description": "Fresh tomatoes, cucumbers, olives, and feta cheese.",
+        "category": "Salad"
+    },
+    {
+        "id": 3,
+        "name": "Garden Salad",
+        "image": "https://images.pexels.com/photos/775031/pexels-photo-775031.jpeg",
+        "price": 4.99,
+        "description": "Lettuce, carrots, cucumbers, and bell peppers with vinaigrette.",
+        "category": "Salad"
+    },
+    {
+        "id": 4,
+        "name": "Fruit Salad",
+        "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+        "price": 5.49,
+        "description": "A refreshing mix of seasonal fruits.",
+        "category": "Salad"
+    },
+    {
+        "id": 5,
+        "name": "Cobb Salad",
+        "image": "https://images.pexels.com/photos/102842/pexels-photo-102842.jpeg",
+        "price": 7.99,
+        "description": "A classic American salad with eggs, bacon, and blue cheese.",
+        "category": "Salad"
+    },
+    {
+        "id": 6,
+        "name": "Caprese Salad",
+        "image": "https://images.pexels.com/photos/616404/pexels-photo-616404.jpeg",
+        "price": 6.99,
+        "description": "Tomatoes, mozzarella, and basil drizzled with balsamic glaze.",
+        "category": "Salad"
+    },
+    {
+        "id": 7,
+        "name": "Asian Sesame Salad",
+        "image": "https://images.pexels.com/photos/5410408/pexels-photo-5410408.jpeg",
+        "price": 7.49,
+        "description": "Cabbage, carrots, and sesame dressing.",
+        "category": "Salad"
+    },
+    {
+        "id": 8,
+        "name": "Avocado Salad",
+        "image": "https://images.pexels.com/photos/5469457/pexels-photo-5469457.jpeg",
+        "price": 8.99,
+        "description": "Avocado, cherry tomatoes, and leafy greens.",
+        "category": "Salad"
+    },
+    {
+        "id": 9,
+        "name": "Kale & Quinoa Salad",
+        "image": "https://images.pexels.com/photos/5937557/pexels-photo-5937557.jpeg",
+        "price": 9.49,
+        "description": "Nutritious kale with quinoa and nuts.",
+        "category": "Salad"
+    },
+    {
+        "id": 10,
+        "name": "Tropical Mango Salad",
+        "image": "https://images.pexels.com/photos/3297805/pexels-photo-3297805.jpeg",
+        "price": 6.99,
+        "description": "Mango, pineapple, and coconut shreds.",
+        "category": "Salad"
+    },
+    {
+        "id": 11,
+        "name": "Strawberry Cheesecake",
+        "image": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg",
+        "price": 6.99,
+        "description": "Creamy cheesecake topped with fresh strawberries.",
+        "category": "Dessert"
+    },
+    {
+        "id": 12,
+        "name": "Chocolate Brownie",
+        "image": "https://images.pexels.com/photos/3026803/pexels-photo-3026803.jpeg",
+        "price": 4.99,
+        "description": "Rich, fudgy chocolate brownie with a crispy top.",
+        "category": "Dessert"
+    },
+    {
+        "id": 13,
+        "name": "Tiramisu",
+        "image": "https://images.pexels.com/photos/2144200/pexels-photo-2144200.jpeg",
+        "price": 7.99,
+        "description": "Classic Italian coffee-flavored dessert.",
+        "category": "Dessert"
+    },
+    {
+        "id": 14,
+        "name": "Fruit Custard",
+        "image": "https://images.pexels.com/photos/3026811/pexels-photo-3026811.jpeg",
+        "price": 5.99,
+        "description": "Chilled mixed fruit custard with creamy vanilla sauce.",
+        "category": "Dessert"
+    },
+    {
+        "id": 15,
+        "name": "Choco Lava Cake",
+        "image": "https://images.pexels.com/photos/2525680/pexels-photo-2525680.jpeg",
+        "price": 6.49,
+        "description": "Warm chocolate cake with a gooey melted chocolate center.",
+        "category": "Dessert"
+    }
+]
