@@ -1,4 +1,4 @@
-import { useState, useNavigate } from 'react'
+import { useState} from 'react'
 import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Home from '../src/pages/Home/Home'
@@ -11,12 +11,6 @@ import LoginPopUp from './components/Loginpopup/LoginPopUp'
 function App() {
 
   const [showLogin, setshowLogin] = useState(true)
-  const navigate = useNavigate();  // Hook to navigate programmatically
-
-  useEffect(() => {
-    // Redirect to home page on page load or refresh
-    navigate('/');
-  }, [navigate]);
 
   return (
     <>
